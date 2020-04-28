@@ -32,7 +32,7 @@
     <bean id="mapperScannerConfigurer" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
         <!-- 动态代理扫描接口-->
-        <property name="basePackage" value="lwj.dao"/>
+        <property name="basePackage" value="cn.dao"/>
     </bean>
     <!-- 开启事务-->
     <bean id="txManager"   class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
